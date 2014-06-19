@@ -1,0 +1,403 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<meta name="description" content="Collection of Electronics, Circuits, Teardowns, Programming, Lua, etc.">
+<meta name="keywords" content="Electronics, Circuits, Teardown, Lua, Programming">
+<meta name="revisit-after" content="7 days">
+<meta name="ROBOTS" content="Index, ALL">
+<meta name="ROBOTS" content="Index, FOLLOW">
+  <title>Milind's Web</title>
+  <!-- GOOGLE ANALYTICS CODE STARTS -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42092118-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  
+  <!-- GOOGLE ANALYTICS CODE ENDS -->
+  
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+
+  
+  <style type="text/css"><!--
+h1 { font-family: Arial, sans-serif; font-size: 30px; color: #004080;}
+h2 { font-family: Arial, sans-serif; font-size: 18px; color: #004080;}
+
+body,p,b,i,em,dt,dd,dl,sl,caption,th,td,tr,u,blink,select,option,form,div,li { font-family: Arial, sans-serif; font-size: 12px; }
+
+/* IE Specific */
+body, textarea {
+  scrollbar-3dlight-color: #808080;
+  scrollbar-highlight-color: #808080;
+  scrollbar-face-color: #004080;
+  scrollbar-shadow-color: #808080;
+  scrollbar-darkshadow-color: #805B32;
+  scrollbar-arrow-color: #000000;
+  scrollbar-track-color: #F8EFE2;
+}
+/* END IE Specific */
+-->
+	</style>
+	<style>
+pre {
+    white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+    white-space: -pre-wrap; /* Opera */
+    white-space: -o-pre-wrap; /* Opera */
+    white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+    word-wrap: break-word; /* IE 5.5+ */
+	font-size:1.2em; line-height:1.4em;
+	border:1px solid #fe8; background:#ffc;
+}	
+body{padding:0;margin:0;}
+.myFloatBar{
+   bottom:0;
+   left:0;
+   width:100%;
+   position:fixed;
+   border-top: 1px solid black;
+   background-color:rgb(96, 128, 233);
+   text-align: center;
+}
+.TiddlerTitle{
+	color: rgb(255, 102, 0); 
+	font-family: Arial Black;
+	font-size: 18pt; 
+}
+img{
+    max-width:600px;
+}
+li dl dd img {margin-left: -80px;} 
+</style>
+<style>
+/* stylesheet=StyleSheetTableOfContents */
+/*{{{*/
+.dcTOC {
+	float: left; /* auto-width */
+	margin: 0 2em 2em 0;
+	border: 1px solid #aaa;
+	padding: 5px;
+	background-color: #eee;
+}
+
+.dcTOC ul {
+	margin: 0 1em;
+}
+
+h1 {
+	clear: left;
+}
+/*}}}*/
+
+</style>
+<style>
+a {color:#04b;}
+a:hover {background-color:#04b; color:#fff;}
+a img {border:0;}
+
+h1,h2,h3,h4,h5,h6 {color:#841; background:transparent;}
+h1 {border-bottom:2px solid #ccc;}
+h2,h3 {border-bottom:1px solid #ccc;}
+
+h1,h2,h3,h4,h5,h6 {font-weight:bold; text-decoration:none;}
+h1,h2,h3 {padding-bottom:1px; margin-top:1.2em;margin-bottom:0.3em;}
+h4,h5,h6 {margin-top:1em;}
+h1 {font-size:1.35em;}
+h2 {font-size:1.25em;}
+h3 {font-size:1.1em;}
+h4 {font-size:1em;}
+h5 {font-size:.9em;}
+
+.viewer table, table.twtable {border-collapse:collapse; margin:0.8em 1.0em;}
+.viewer th, .viewer td, .viewer tr,.viewer caption,.twtable th, .twtable td, .twtable tr,.twtable caption {padding:3px;}
+table.listView {font-size:0.85em; margin:0.8em 1.0em;}
+table.listView th, table.listView td, table.listView tr {padding:0 3px 0 3px;}
+
+
+.viewer table, table.twtable {border:2px solid #666;}
+.viewer th, .viewer thead td, .twtable th, .twtable thead td {background:#db4; border:1px solid #666; color:#fff;}
+.viewer td, .viewer tr, .twtable td, .twtable tr {border:1px solid #666;}
+</style>
+</head><body style="background-color: rgb(255, 255, 255);" onload="setSideAds();">
+
+<!-- FACEBOOK LIKE CODE STARTS -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- FACEBOOK LIKE CODE ENDS -->
+
+<!-- FLOATING BAR ON PAGE BOTTOM FOR SOCIAL MEDIA LINKS STARTS -->
+
+<div class="myFloatBar" id="myFloatBar">
+<table style="text-align: left; width: 960px; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+  <tr>
+      <td valign="top" style="padding-right:10px;">
+	  <div id="SocialMF" style="text-align: center;">
+<div style="margin-right:30px;" class="fb-like" data-href="<LT>#PAGEURL</LT>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+		     <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="MilindsWeb">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-size="medium"></div>
+
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+ lang: en_US
+</script>
+<script type="IN/Share" data-url="http://www.amved.com/milindsweb" data-counter="right"></script>
+</div>
+</td>
+      <td style="width: 336px;" valign="top" align="center">
+		</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- FLOATING BAR ON PAGE BOTTOM FOR SOCIAL MEDIA LINKS ENDS -->
+
+<!-- TABLE FOR HEADING AND SEARCH BOX STARTS -->
+<table style="width: 960px; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="1" cellspacing="1">
+
+  <tbody>
+    <tr>
+      <td style="height: 40px;">
+      <span style="font-size: 48px;"><strong><span style="color: rgb(51, 102, 204);"><span style="font-family: courier new,courier,monospace;">Milind's Web</span></span></strong></span>
+      </td>
+      <td style="vertical-align: top; width: 300px; height: 40px;">
+      <div>
+	  <!-- Google Search Box-->
+<script>
+  (function() {
+    var cx = '005621458405176998096:zkecaeyikgw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.amved.com/milindsweb/searchResults.html"></gcse:searchbox-only></div>
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- TABLE FOR HEADING AND SEARCH BOX ENDS -->
+
+<!-- TABLE FOR NAVIGATION BAR STARTS -->
+<table style="text-align: left; width: 960px; margin-left: auto; margin-right: auto;" border="0" cellpadding="1" cellspacing="1">
+
+  <tbody>
+    <tr style="height: 30px;">
+      <td style="vertical-align: middle; background-color: rgb(51, 102, 204); width: 60px; text-align: center;"><a style="color: white;" href="http://www.amved.com/milindsweb">Home</a><br>
+      </td>
+      <td style="vertical-align: middle; background-color: rgb(51, 102, 204); width: 90px; text-align: center;"><a style="color: white;" href="http://www.amved.com/milindsweb/Electronics.html">Electronics</a><br>
+      </td>
+      <td style="vertical-align: middle; background-color: rgb(51, 102, 204); width: 90px; text-align: center;"><a style="color: white;" href="http://www.amved.com/milindsweb/Software.html">Software</a><br>
+      </td>
+      <td style="vertical-align: middle; background-color: rgb(51, 102, 204); width: 90px; text-align: center;"><a style="color: white;" href="http://www.amved.com/milindsweb/Tools.html">Tools</a><br>
+      </td>
+      <td style="vertical-align: middle; background-color: rgb(51, 102, 204); width: 60px; text-align: center;"><a style="color: white;" href="http://www.amved.com/milindsweb/Misc.html">Misc.</a><br>
+      </td>
+      <td style="vertical-align: top; background-color: rgb(51, 102, 204); width: 750px;"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- TABLE FOR NAVIGATION BAR ENDS -->
+
+
+<!-- Table for the Top Ads START-->
+<table style="text-align: left; width: 960px; margin-left: auto; margin-right: auto;" border="0" cellpadding="1" cellspacing="1">
+
+  <tbody>
+	<tr>
+      <td colspan="1" rowspan="1">
+		<div id="TopBanner" style="text-align: center;">
+		</div>
+	  </td>
+      <td style="width: 120px;">		
+		<div id="TopRightCorner" style="text-align: center;">
+		</div>
+		</td>
+	</tr>
+	</tbody>
+</table>
+<!-- Table for the Top Ads END-->
+
+<!-- Table for all the content and the side ads START -->
+<table style="text-align: left; width: 960px; margin-left: auto; margin-right: auto;border-right:none; border-top:none; border-bottom:none; border-left:none;" border="2" cellpadding="1" cellspacing="1">
+
+  <tbody>
+  <tr id="ContentRow">
+      <td valign="top" style="padding-right:10px; border-right:none; border-top:none; border-bottom:none; border-left:none;">&nbsp;<br>
+            <div id="SocialM" style="text-align: center;">
+		<div style="margin-right:30px;" class="fb-like" data-href="http://www.amved.com/milindsweb" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+		     <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="MilindsWeb">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-size="medium"></div>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+ lang: en_US
+</script>
+<script type="IN/Share" data-url="http://www.amved.com/milindsweb" data-counter="right"></script>
+      </div> <!-- SocialM div element ends -->
+	  <br><br>
+	  <div id="TiddlerTitle" class="TiddlerTitle"></div>
+	  <div id="tiddler" class="viewer"> The tiddler goes in here </div>
+	  <br>
+      <div id="RecentA"> <h3>Recent Articles:</h3> <big><a href="www.amved.com">Article 1</a><br>
+      <small>Article 1 Text</small><br>
+      <a href="www.amved.com">Article 2</a><br>
+      </big><big><small>Article 2 Text</small></big><br>
+      <big><a href="www.google.com">Article 3</a></big><br>
+      <big><small>Article 3 Text</small></big> </div>
+      <br>
+      <div id="ArticleEndAd" style="text-align: center;"></div>
+      </td>
+      <td style="width: 336px; border-right:none; border-top:none; border-bottom:none; " valign="top" align="center">&nbsp;
+	  <script type="text/javascript">
+			<!--
+				function setSideAds() {
+					var h = document.getElementById('ContentRow').offsetHeight;
+					for(var i=3;i<=31;i++)
+					{ 
+						if (h>(i*260))
+						{
+							document.getElementById('sideAd'+i).style.display="inline";
+						}
+						else
+						{
+							break;
+						}
+					}
+				}
+			//-->
+    </script>
+		<div id="sideAd1" style="margin-bottom: 3em;">
+		</div>
+		<div id="sideAd2" style="margin-bottom: 3em;">
+		</div>
+		<div id="sideAd3" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd4" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd5" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd6" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd7" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd8" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd9" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd10" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd11" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd12" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd13" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd14" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd15" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd16" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd17" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd18" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd19" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd20" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd21" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd22" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd23" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd24" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd25" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd26" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd27" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd28" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd29" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="sideAd30" style="display:none; margin-bottom: 3em;">
+		</div>
+		<div id="unused">
+		</div>
+	  </td>
+    </tr>
+	</tbody>
+</table>
+<!-- Table for all the content and the side ads END -->
+
+<!-- Table for Bottom Ads Start -->
+<table style="text-align: left; width: 960px; margin-left: auto; margin-right: auto;" border="0" cellpadding="1" cellspacing="1">
+
+  <tbody>
+
+	<tr>
+      <td colspan="1" rowspan="1">
+		<div id="BotBanner" style="text-align: center;">
+		</div>
+	  </td>
+      <td style="width: 120px;">
+		<div id="BotRightCorner" style="text-align: center;">
+		</div>
+	  </td>
+	</tr>
+    <tr>
+      <td style="height: 30px; text-align: center; background-color: rgb(51, 102, 204);" colspan="2" rowspan="1"><span style="color: white;">Copyright 2013
+<a style="color: white;"
+href="mailto:milind.gupta@gmail.com">Milind Gupta</a>  </span><a href="https://twitter.com/aryajur" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow @aryajur</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
+    </tr>
+  </tbody>
+</table>
+<!-- Table for Bottom Ads End -->
+
+<!-- Blank table to give space to the floating div bar and not to overlap the page when scrolled to the end -->
+<table style="text-align: left; width: 960px; height: 40px; margin-left: auto; margin-right: auto;" border="0" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<div id="BotContent1"></div>
+<div id="BotContent2"></div>
+<div id="BotContent3"></div>
+</body></html>
