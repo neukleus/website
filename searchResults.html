@@ -1,0 +1,307 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<meta name="description" content="Open Source Home Automation platform based on compact software based on Lua">
+<meta name="keywords" content="Open Source, Home Automation, Lua">
+<meta name="revisit-after" content="7 days">
+<meta name="ROBOTS" content="Index, ALL">
+<meta name="ROBOTS" content="Index, FOLLOW">
+  <title>Neukleus, Open Source Home and Data Automation</title>
+  <!-- GOOGLE ANALYTICS CODE STARTS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52085691-1', 'neukleus.com');
+  ga('send', 'pageview');
+
+</script>
+  
+  <!-- GOOGLE ANALYTICS CODE ENDS -->
+  
+  
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+
+  
+  <style type="text/css"><!--
+h1 { font-family: Arial, sans-serif; font-size: 30px; color: #004080;}
+h2 { font-family: Arial, sans-serif; font-size: 18px; color: #004080;}
+
+body,p,b,i,em,dt,dd,dl,sl,caption,th,td,tr,u,blink,select,option,form,div,li { font-family: Arial, sans-serif; font-size: 12px; }
+
+/* IE Specific */
+body, textarea {
+  scrollbar-3dlight-color: #808080;
+  scrollbar-highlight-color: #808080;
+  scrollbar-face-color: #004080;
+  scrollbar-shadow-color: #808080;
+  scrollbar-darkshadow-color: #805B32;
+  scrollbar-arrow-color: #000000;
+  scrollbar-track-color: #F8EFE2;
+}
+/* END IE Specific */
+-->
+	</style>
+</head><body style="background-color: rgb(255, 255, 255);">
+
+<p>&nbsp;</p>
+
+<table style="width: 960px; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="1" cellspacing="1">
+
+  <tbody>
+    <tr>
+      <td style="height: 40px;">
+      <span style="font-size: 48px;"><strong><span style="color: rgb(51, 102, 204);"><span style="font-family: courier new,courier,monospace;">Neukleus<span style="font-size: 18px; color: rgb(204, 102, 204);"> Open Source Home & Data Automation</span></span></span></strong></span>
+      </td>
+      <td style="vertical-align: top; width: 300px; height: 40px;">
+      <div>
+	  <!-- Google Search Box-->
+<div id='cse-search-form' style='width: 100%;'>Loading</div>
+<script src='//www.google.com/jsapi' type='text/javascript'></script>
+<script type='text/javascript'>
+google.load('search', '1', {language: 'en', style: google.loader.themes.MINIMALIST});
+google.setOnLoadCallback(function() {
+  var customSearchOptions = {};
+  var orderByOptions = {};
+  orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+  customSearchOptions['enableOrderBy'] = true;
+  customSearchOptions['orderByOptions'] = orderByOptions;
+  var customSearchControl =   new google.search.CustomSearchControl('000409481557966177864:32jvdqgtp44', customSearchOptions);
+  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+  var options = new google.search.DrawOptions();
+  options.enableSearchboxOnly('http://www.neukleus.com/searchResults.html', 'q');
+  options.setAutoComplete(true);
+  customSearchControl.draw('cse-search-form', options);
+}, true);
+</script>
+<style type='text/css'>
+  input.gsc-input {
+    border-color: #BBBBBB;
+  }
+  input.gsc-search-button {
+    border-color: #000000;
+    background-color: #0B5394;
+  }
+</style>	  	  
+<!--<script>
+  (function() {
+    var cx = '005621458405176998096:zkecaeyikgw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.amved.com/milindsweb/searchResults.html"></gcse:searchbox-only>--></div>
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="text-align: left; width: 960px; margin-left: auto; margin-right: auto;" border="0" cellpadding="1" cellspacing="1">
+
+  <tbody>
+    <tr style="height: 30px;">
+      <td style="vertical-align: middle; background-color: rgb(51, 102, 204); width: 60px; text-align: center;"><a style="color: white;" href="http://www.neukleus.com">Home</a><br>
+      </td>
+      <td style="vertical-align: middle; background-color: rgb(51, 102, 204); width: 90px; text-align: center;"><a style="color: white;" href="http://www.neukleus.com/Core_Software.html">Core Software</a><br>
+      </td>
+      <td style="vertical-align: middle; background-color: rgb(51, 102, 204); width: 90px; text-align: center;"><a style="color: white;" href="http://www.neukleus.com/Apps.html">Apps</a><br>
+      </td>
+      <td style="vertical-align: top; background-color: rgb(51, 102, 204); width: 750px;"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="text-align: left; width: 960px; margin-left: auto; margin-right: auto;" border="0" cellpadding="1" cellspacing="1">
+
+  <tbody>
+    <tr>
+      <td colspan="1" rowspan="1"><br>
+            <div id="SearchResults" style="text-align: center;">
+<div id='cse' style='width: 100%;'>Loading</div>
+<script src='//www.google.com/jsapi' type='text/javascript'></script>
+<script type='text/javascript'>
+google.load('search', '1', {language: 'en', style: google.loader.themes.MINIMALIST});
+google.setOnLoadCallback(function() {
+  var customSearchOptions = {};
+  var orderByOptions = {};
+  orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+  customSearchOptions['enableOrderBy'] = true;
+  customSearchOptions['orderByOptions'] = orderByOptions;
+  var customSearchControl =   new google.search.CustomSearchControl('005621458405176998096:zkecaeyikgw', customSearchOptions);
+  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+  var options = new google.search.DrawOptions();
+  options.setAutoComplete(true);
+  customSearchControl.draw('cse', options);
+  function parseParamsFromUrl() {
+    var params = {};
+    var parts = window.location.search.substr(1).split('&');
+    for (var i = 0; i < parts.length; i++) {
+      var keyValuePair = parts[i].split('=');
+      var key = decodeURIComponent(keyValuePair[0]);
+      params[key] = keyValuePair[1] ?
+          decodeURIComponent(keyValuePair[1].replace(/\+/g, ' ')) :
+          keyValuePair[1];
+    }
+    return params;
+  }
+  var urlParams = parseParamsFromUrl();
+  var queryParamName = 'q';
+  if (urlParams[queryParamName]) {
+    customSearchControl.execute(urlParams[queryParamName]);
+  }
+}, true);
+</script>
+<style type='text/css'>
+  .gsc-control-cse {
+    font-family: Arial, sans-serif;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  .gsc-control-cse .gsc-table-result {
+    font-family: Arial, sans-serif;
+  }
+  input.gsc-input {
+    border-color: #BBBBBB;
+  }
+  input.gsc-search-button {
+    border-color: #000000;
+    background-color: #0B5394;
+  }
+  .gsc-tabHeader.gsc-tabhInactive {
+    border-color: #333333;
+    background-color: #3D85C6;
+  }
+  .gsc-tabHeader.gsc-tabhActive {
+    border-color: #777777;
+    background-color: #6FA8DC;
+  }
+  .gsc-tabsArea {
+    border-color: #333333;
+  }
+  .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  .gsc-webResult.gsc-result:hover, .gsc-imageResult:hover {
+    border-color: #073763;
+    background-color: #FFFFFF;
+  }
+  .gsc-webResult.gsc-result.gsc-promotion:hover {
+    border-color: #073763;
+    background-color: #FFFFFF;
+  }
+  .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b  {
+    color: #073763;
+  }
+  .gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b {
+    color: #3D85C6;
+  }
+  .gs-webResult.gs-result a.gs-title:hover, .gs-webResult.gs-result a.gs-title:hover b, .gs-imageResult a.gs-title:hover, .gs-imageResult a.gs-title:hover b {
+    color: #134F5C;
+  }
+  .gs-webResult.gs-result a.gs-title:active, .gs-webResult.gs-result a.gs-title:active b, .gs-imageResult a.gs-title:active, .gs-imageResult a.gs-title:active b {
+    color: #134F5C;
+  }
+  .gsc-cursor-page {
+    color: #073763;
+  }
+  a.gsc-trailing-more-results:link {
+    color: #073763;
+  }
+  .gs-webResult .gs-snippet, .gs-imageResult .gs-snippet, .gs-fileFormatType {
+    color: #333333;
+  }
+  .gs-webResult div.gs-visibleUrl, .gs-imageResult div.gs-visibleUrl {
+    color: #073763;
+  }
+  .gs-webResult div.gs-visibleUrl-short {
+    color: #073763;
+  }
+  .gs-webResult div.gs-visibleUrl-short  {
+    display: none;
+  }
+  .gs-webResult div.gs-visibleUrl-long {
+    display: block;
+  }
+  .gs-promotion div.gs-visibleUrl-short {
+    display: none;
+  }
+  .gs-promotion div.gs-visibleUrl-long  {
+    display: block;
+  }
+  .gsc-cursor-box {
+    border-color: #FFFFFF;
+  }
+  .gsc-results .gsc-cursor-box .gsc-cursor-page {
+    border-color: #777777;
+    background-color: #FFFFFF;
+    color: #073763;
+  }
+  .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    border-color: #333333;
+    background-color: #3D85C6;
+    color: #3D85C6;
+  }
+  .gsc-webResult.gsc-result.gsc-promotion {
+    border-color: #CCCCCC;
+    background-color: #E6E6E6;
+  }
+  .gsc-completion-title {
+    color: #073763;
+  }
+  .gsc-completion-snippet {
+    color: #333333;
+  }
+  .gs-promotion a.gs-title:link,.gs-promotion a.gs-title:link *,.gs-promotion .gs-snippet a:link  {
+    color: #0000CC;
+  }
+  .gs-promotion a.gs-title:visited,.gs-promotion a.gs-title:visited *,.gs-promotion .gs-snippet a:visited {
+    color: #0000CC;
+  }
+  .gs-promotion a.gs-title:hover,.gs-promotion a.gs-title:hover *,.gs-promotion .gs-snippet a:hover  {
+    color: #444444;
+  }
+  .gs-promotion a.gs-title:active,.gs-promotion a.gs-title:active *,.gs-promotion .gs-snippet a:active {
+    color: #00CC00;
+  }
+  .gs-promotion .gs-snippet, .gs-promotion .gs-title .gs-promotion-title-right, .gs-promotion .gs-title .gs-promotion-title-right * {
+    color: #333333;
+  }
+  .gs-promotion .gs-visibleUrl,.gs-promotion .gs-visibleUrl-short  {
+    color: #00CC00;
+  }
+</style>			
+<!--<script>
+  (function() {
+    var cx = '005621458405176998096:zkecaeyikgw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchresults-only></gcse:searchresults-only>-->
+		</div>
+      </td>
+    </tr>
+    <tr>
+      <td style="height: 30px; text-align: center; background-color: rgb(51, 102, 204);" colspan="2" rowspan="1"><span style="color: white;">Copyright 2014
+<a style="color: white;"
+href="mailto:neukleus@gmail.com">Neukleus</a>  </span><a href="https://twitter.com/neukleus" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow @neukleus</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
+    </tr>
+  </tbody>
+</table>
+
+</body></html>
