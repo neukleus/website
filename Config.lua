@@ -4,11 +4,12 @@ CURRDIR = "../../../../../../../../Startup/Neukleus/Website/"
 
 TEMPLATE = "template.html"
 
-OUTDIR = "C:/Users/milindgupta/Documents/outputNeukleus"
+OUTDIR = "C:/Users/Guptam/Documents/outputNeukleus"
 
 BASEURL = "http://www.neukleus.com"
 
 FILES2EXCLUDE = {
+					"Take Snap Shot.html",
 					"searchResults.html",
 					"NEUKLEUS.html",
 					"template.html"
@@ -63,7 +64,7 @@ function recentA()
 					local srcFile = var1:read("*all")
 					var1:close()
 					-- Get the text inside the div element with class viewer
-					local divSub = getTagString(srcFile,"div",{class="subtitle"}, true)
+					local divSub = getTagString(srcFile,"div",{class={"subtitle",1}}, true)
 					if divSub then
 						local dt,mnt,yr, strDate, text
 						local mntTab = {January="01", February="02", March="03", April="04", May="05", June="06", July="07", August="08", September="09", October="10", November="11", December="12"}
@@ -74,11 +75,11 @@ function recentA()
 						strDate = yr..mntTab[mnt]..dt
 						text = ""
 						-- Now get the article text
-						local divSub = getTagString(srcFile,"div",{class="viewer"}, true)
+						local divSub = getTagString(srcFile,"div",{class={"viewer",1}}, true)
 						if divSub then
 							-- Remove the table of content header if any
 							local div1,st,swt,pt,pwt
-							div1,st,pt,swt,pwt = getTagString(divSub,"div",{class="dcTOC"})
+							div1,st,pt,swt,pwt = getTagString(divSub,"div",{class={"dcTOC",1}})
 							if div1 then
 								divSub = divSub:sub(pt+1,-1)
 							end
