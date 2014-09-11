@@ -5,7 +5,7 @@ CURRDIR = "../../../../../../../../Startup/Neukleus/Website/"
 TEMPLATE = "template.html"
 
 --OUTDIR = "C:/Users/Guptam/Documents/outputNeukleus"
-OUTDIR = "C:/Users/milindgupta/Documents/outputNeukleus"
+OUTDIR = "D:/Milind/Documents/outputNeukleus"
 
 BASEURL = "http://www.neukleus.com"
 
