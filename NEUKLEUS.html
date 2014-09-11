@@ -2767,7 +2767,7 @@ For help and questions you can post to the Lua Mailing list or email to info [AT
 # Add function for utility code to yield the thread it is running in
 # Implement coroutine.wrap in the thread code.</pre>
 </div>
-<div title="LuaUPNP" creator="Milind" modifier="Milind" created="201409100631" modified="201409102115" tags="Published" changecount="16">
+<div title="LuaUPNP" creator="Milind" modifier="Milind" created="201409100631" modified="201409111635" tags="Published" changecount="17">
 <pre>&lt;&lt;showtoc&gt;&gt;
 
 ! Description
@@ -2837,11 +2837,11 @@ The following objects are in the upnpObject
 !!! Creation
 On doing msearch or pcap the hosts array is populated with discovered hosts
 !!! Member Functions
-# ''getInfo()'' -- get the full information for the host. This populates all the ''devices'' tables for the host containing all the services, state variables and actions for the device.
+# ''getInfo()'' - get the full information for the host. This populates all the ''devices'' tables for the host containing all the services, state variables and actions for the device.
 #: Usage:
 #: {{{hostObject:getInfo()}}}
 #: If successful then returns true, otherwise nil and a error message.
-# ''send(devName, serviceName, actionName)'' -- send a SOAP command with the info in the parameters
+# ''send(devName, serviceName, actionName)'' - send a SOAP command with the info in the parameters
 #: Usage:
 #: {{{hostObj:send(deviceName,serviceName, actionName,{[Arg1]=Arg1_Value, [Arg2]=Arg2_Value})}}}
 #: If successful it returns the response SOAP XML followed by the return tags that are expected in the message if any.
